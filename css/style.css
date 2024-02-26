@@ -29,7 +29,7 @@ body{
 
 .content{
   background: rgba(255, 255, 255, 0.45);
-  width: 65%;
+  width: 1246px;
   margin: 0 auto;
   padding: 0 10px 50px;
   border-radius: 40px;
@@ -78,13 +78,14 @@ body{
   float: right;
   margin-left: 15px;
   margin-top: 69px;
-  shape-outside: inset(calc(100% - 277px) 0 0);
+  shape-outside: inset(calc(100% - 214px) 0 0);
 }
 
 .bottom{
   font-size: 16px;
   font-style: italic;
-  padding-left: 15px;
+  position: relative;
+  margin-top: -10px;
 }
 .webstite{
   position: absolute;
