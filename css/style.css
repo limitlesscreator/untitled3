@@ -4,9 +4,10 @@
 }
 
 body{
-  background: url("../img/background.png")no-repeat;
+  background: url("../img/background.png");
   background-size: cover;
   font-family: Triod Postnaja;
+  width: 100vw;
 }
 .title{
   color: white;
@@ -24,7 +25,7 @@ body{
 .dfFlex img{
   border-radius: 25px;
   margin: 0 10px;
-  width: 10%;
+  width: 188px;
 }
 
 .content{
