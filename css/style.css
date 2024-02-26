@@ -8,9 +8,11 @@ body{
   background-size: cover;
   font-family: Triod Postnaja;
   width: 100vw;
-  scale: 0.8;
-
+  scale: 0.7;
 }
+
+
+
 .title{
   color: white;
   font-size: 40px;
@@ -105,4 +107,13 @@ body{
 .webstite img {
   width: 20px;
   height: 20px;
+}
+@media screen and (max-width: 1500px) {
+  body{
+    scale: 0.6;
+    transform: translate(-5%,-30%);
+  }
+  .content{
+    width: 100%;
+  }
 }
